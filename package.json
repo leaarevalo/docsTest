@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/app.js",
-    "devm": "nodemon node src/app.js"
+    "devm": "nodemon node src/app.js",
+    "auto-swagger": "node swagger/swagger.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "swagger-autogen": "^2.5.6",
+    "swagger-ui-express": "^4.1.6"
   }
 }
